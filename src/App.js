@@ -56,12 +56,12 @@ class App extends Component {
         />
         <Services
           servicesList={[
-              'Criação de Landing pages',
-              'Consultoria',
-              'Criação de aplicativos nativos para android',
-              'Criação de aplicativos desktop com JavaFx, Swing e Electron',
-              'Criação pwa',
-              'Criação de api com NodeJs ExpressJs'
+              'Lorem ipsum dolor sit amet',
+              'Lorem ipsum dolor sit amet',
+              'Lorem ipsum dolor sit amet',
+              'Lorem ipsum dolor sit amet',
+              'Lorem ipsum dolor sit amet',
+              'Lorem ipsum dolor sit amet'
             ]}
         />
         <Portfolio
