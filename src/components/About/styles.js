@@ -12,6 +12,16 @@ export const StyleAbout = styled.section`
         height: 118px;
         background: #FFF;
         border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
     }
     p:nth-child(2) {
         font-family: Roboto;

@@ -21,7 +21,7 @@ export default class Skills extends React.Component {
 
     render() {
         return(
-            <StyleSkills>
+            <StyleSkills id={'Skills'}>
                 <p className={"title"}>Skills</p>
                 <div>{this.createSkills()}</div>
             </StyleSkills>

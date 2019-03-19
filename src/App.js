@@ -9,7 +9,7 @@ import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import SocialNetworks from './components/SocialNetworks'
 
-import Foto from './imagePresentation.jpg'
+import Foto from './perfil.jpg'
 
 class App extends Component {
   render() {
@@ -18,12 +18,6 @@ class App extends Component {
         <Header 
           firstName={"Joel"}
           secondName={"Henrique"}
-          links={[
-            {name: '', hash: ''},
-            {name: '', hash: ''},
-            {name: '', hash: ''},
-            {name: '', hash: ''},
-          ]}
         />
         <Presentation 
           title={'Fullstack Developer'}
@@ -35,7 +29,7 @@ class App extends Component {
             sapien.`}
         />
         <About
-          photo={''}
+          photo={Foto}
           name={'Olá, eu sou Joel Henrique.'}
           description={`
             Lorem ipsum dolor sit amet, 
@@ -81,9 +75,7 @@ class App extends Component {
         <Contact>
 
         </Contact>
-        <SocialNetworks
-          
-        />
+        <SocialNetworks/>
       </React.Fragment>
     );
   }
