@@ -1,11 +1,16 @@
 import React from 'react'
 
+import { StyleContact } from "./styles";
+
 export default class Contact extends React.Component {
     render() {
         return(
-            <section id={'Contact'}>
-                Contact
-            </section>
+        <StyleContact id={'Portfolio'}>
+            <div className={"title"}>Contact</div>
+            <div  className={"email"}>
+                joelhenriqueprincipal@gmail.com
+            </div>
+        </StyleContact>
         )
     }
 }

@@ -29,7 +29,7 @@ export const StyleServices = styled.section`
         background: #FFF;
         border-radius: 2px;
         display: flex;
-        justify-content: start;
+        justify-content: center;
 
         @media (max-width: 575.98px) {
             padding: 15px;

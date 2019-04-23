@@ -13,7 +13,7 @@ export default class Portfolio extends React.Component {
             tableProjects.push(
                 <section key={i}>
                     <a href={link}>
-                        <StyleImage image={photo.Foto}/>
+                        <StyleImage image={photo.backgroundCard}/>
                     </a>
                     <p>{title}</p>
                 </section>

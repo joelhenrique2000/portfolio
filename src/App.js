@@ -10,6 +10,7 @@ import Contact from './components/Contact'
 import SocialNetworks from './components/SocialNetworks'
 
 import Foto from './perfil.jpg'
+import backgroundCard from './backgroundCard.jpg'
 
 class App extends Component {
   render() {
@@ -22,24 +23,16 @@ class App extends Component {
         <Presentation 
           title={'Fullstack Developer'}
           description={`
-            Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit. 
-            Aliquam in nisl suscipit, 
-            rhoncus velit molestie, cursus 
-            sapien.`}
+          Transform your best idea into reality with the best technologies of the moment.
+          `}
         />
         <About
           photo={Foto}
-          name={'Olá, eu sou Joel Henrique.'}
+          name={'Hello, my name\'s Joel Henrique.'}
           description={`
-            Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit. 
-            Aliquam in nisl suscipit, 
-            rhoncus velit molestie, cursus 
-            sapien. Sed aliquet, nulla ut 
-            dapibus accumsan, nisi lectus 
-            consectetur dui, a aliquet lacus 
-            purus vitae tortor.
+            I am Fullstack Developer Jr., studying in IFPE - Campus Garanhuns. 
+            I focus on the user experience and how projects will influe them in their lives.
+            Recently studied and am developing projects on the MERN stack.
           `}
         />
         <Skills
@@ -56,26 +49,28 @@ class App extends Component {
         />
         <Services
           servicesList={[
-              'Lorem ipsum dolor sit amet',
-              'Lorem ipsum dolor sit amet',
-              'Lorem ipsum dolor sit amet',
-              'Lorem ipsum dolor sit amet',
-              'Lorem ipsum dolor sit amet',
-              'Lorem ipsum dolor sit amet'
+              'Website Design',
+              'Site Development',
+              'Responsive Website Design',
+              'Backend developer',
+              'pwa',
             ]}
         />
         <Portfolio
           portfolioList={[
-            {title: 'Lorem ipsum dolor', photo: {Foto}, link: 'https://www.google.com/'},
-            {title: 'Lorem ipsum dolor', photo: {Foto}, link: 'https://www.google.com/'},
-            {title: 'Lorem ipsum dolor', photo: {Foto}, link: 'https://www.google.com/'},
-            {title: 'Lorem ipsum dolor', photo: {Foto}, link: 'https://www.google.com/'},
+            {title: 'Lorem ipsum dolor', photo: {backgroundCard}, link: '#Portfolio'},
+            {title: 'Lorem ipsum dolor', photo: {backgroundCard}, link: '#Portfolio'},
+            {title: 'Lorem ipsum dolor', photo: {backgroundCard}, link: '#Portfolio'},
+            {title: 'Lorem ipsum dolor', photo: {backgroundCard}, link: '#Portfolio'},
           ]}
         />
         <Contact>
 
         </Contact>
-        <SocialNetworks/>
+        <SocialNetworks
+          urlFacebook={'https://www.facebook.com/joelhenrique2000'}
+          urlGithub={'https://github.com/joelhenrique2000'}
+        />
       </React.Fragment>
     );
   }
